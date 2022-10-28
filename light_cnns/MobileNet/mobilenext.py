@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import math
 
-__all__ = ['MobileNeXt'， 'mobilenext']
+__all__ = ['MobileNeXt', 'mobilenext']
 
 class ConvBNReLU(nn.Sequential):
     def __init__(self, in_planes, out_planes, kernel_size=3, stride=1, groups=1):
